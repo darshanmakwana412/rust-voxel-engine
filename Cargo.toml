@@ -4,9 +4,6 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-pixels = "0.15"       # For a GPU-powered pixel buffer
-winit = "0.29"        # For window creation and event handling
-wgpu = "0.19"         # (Optional) Exposed by pixels; you typically don’t call it directly
-env_logger = "0.10"   # For logging (optional, but helpful for debugging)
-log = "0.4"
+pixels = "0.15"
+winit = "0.29"
 winit_input_helper = "0.15"
