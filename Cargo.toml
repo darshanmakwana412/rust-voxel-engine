@@ -9,3 +9,4 @@ winit = "0.29"        # For window creation and event handling
 wgpu = "0.19"         # (Optional) Exposed by pixels; you typically don’t call it directly
 env_logger = "0.10"   # For logging (optional, but helpful for debugging)
 log = "0.4"
+winit_input_helper = "0.15"
