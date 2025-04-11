@@ -112,3 +112,13 @@ if input.update(&event) {
     window.request_redraw();
 }
 ```
+
+## Creating Map
+
+The first thing that we will need to now begin developing our voxel engine is map which will enable us to see where we are in the world and will help us debug stuff a lot faster
+Let's first create a world which contains a player
+```rust
+struct World {
+    
+}
+```
